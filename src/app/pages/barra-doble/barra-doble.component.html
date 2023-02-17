@@ -1,0 +1,22 @@
+
+
+<h1>Gráficas Dobles</h1>
+<hr>
+<div class="row  ">
+    <div class="col "style="margin: 10px;">
+      <app-grafica-barra [horizontal]="true"
+      [barChartData]="productoData"
+      ></app-grafica-barra>
+      <!--   [barChartData]="productoData"
+      [barChartLabels]="proveedoresLabels"
+      <app-grafica-barra >
+        </app-grafica-barra> -->
+    </div>
+
+    <div class="col "style="margin: 10px;">
+      <app-grafica-barra [horizontal]="false" [barChartData]="proveedoresData"></app-grafica-barra>
+     <!--    <app-grafica-barra [barChartData]="proveedoresData"
+                           [barChartLabels]="proveedoresLabels">
+        </app-grafica-barra> -->
+    </div>
+</div>
